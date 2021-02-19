@@ -2,5 +2,26 @@
   "dependencies": {
     "inquirer": "^7.3.3",
     "jest": "^26.6.3"
-  }
+  },
+  "name": "teamgen",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sksmejn/TeamGen.git"
+  },
+  "author": "Jonathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sksmejn/TeamGen/issues"
+  },
+  "homepage": "https://github.com/sksmejn/TeamGen#readme"
 }
