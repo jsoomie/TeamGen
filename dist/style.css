@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid rgba(51,51,51,0.5);
+    background-color: white;
+    height: 2.5rem;
+    padding: 0.5rem;
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    width: 100vw;
+    height: 8rem;
+    padding-top: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.container-showcase {
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: whitesmoke;
+    border: 1px solid #333;
+    width: 100%;
+    margin-bottom: 1rem;
+    max-width: 600px;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header {
+    font-size: 1.3rem;
+    background-color: dodgerblue;
+    padding: 1rem;
+    color: white;
+}
+
+.card-body {
+    padding: 1rem;
+}
