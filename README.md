@@ -1,6 +1,11 @@
 # Team Generator
 
+## Links
+
+[GitHub Link](https://github.com/sksmejn/TeamGen)
+
 ## Info
+
 Created a terminal centric program that asks user if they would like to create members of a team. 
 Members include Managers, Engineers, and Interns.  
 
@@ -10,6 +15,9 @@ identification number, office number, github username and intern's school name.
 Once prompts are entered, all the inputted information consolidates into a single html file.
 
 ## Usage
-To use this program, simply run node index.js to start the program after installing the necessary packages.
+
+To use this program, simply run **node index.js** to start the program after installing the necessary packages.
 
 ## Screenshots
+
+![page screenshot](img/webpage.png)

@@ -22,8 +22,7 @@ const genTeam = team => {
                 </div>
             </div>
         </div>
-        `;
-    }
+    `};
 
     // Engineer
     const genEngineer = engineer => {
@@ -47,8 +46,7 @@ const genTeam = team => {
                 </div>
             </div>
         </div>
-        `
-    }
+    `};
 
     // Intern
     const genIntern = intern => {
@@ -72,8 +70,7 @@ const genTeam = team => {
                 </div>
             </div>
         </div>
-        `
-    }
+    `};
 
     // Creates empty array to push the html into
     const html = [];
@@ -116,5 +113,4 @@ module.exports = team => {
         </div>
     </body>
     </html>
-    `
-}
+    `};
