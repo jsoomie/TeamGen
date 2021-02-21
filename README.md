@@ -3,6 +3,7 @@
 ## Links
 
 [GitHub Link](https://github.com/sksmejn/TeamGen)
+[Video Link](https://youtu.be/9j9fS_8mJEw)
 
 ## Info
 
