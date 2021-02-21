@@ -136,8 +136,8 @@ const genIntern = () => {
     inquirer.prompt([
         {
             type: "input",
-            name: "InternName",
-            message: "Enter Intern's name: ",
+            name: "internName",
+            message: "Enter intern's name: ",
             validate: input => {
                 if(input !== "") {
                     return true;
@@ -147,8 +147,8 @@ const genIntern = () => {
         },
         {
             type: "input",
-            name: "InternId",
-            message: "Enter Intern's ID#: ",
+            name: "internId",
+            message: "Enter intern's ID#: ",
             validate: input => {
                 if(isNaN(input)) {
                     return "Please enter a numerical number!";
@@ -158,8 +158,8 @@ const genIntern = () => {
         },
         {
             type: "input",
-            name: "InternEmail",
-            message: "Enter Intern's Email: ",
+            name: "internEmail",
+            message: "Enter intern's Email: ",
             validate: input => {
                 if(input.includes("@") && input.includes(".")) {
                     return true;
@@ -169,8 +169,8 @@ const genIntern = () => {
         },
         {
             type: "input",
-            name: "InternSchool",
-            message: "Enter Intern's school: ",
+            name: "internSchool",
+            message: "Enter intern's school: ",
             validate: input => {
                 if(input !== "") {
                     return true;
